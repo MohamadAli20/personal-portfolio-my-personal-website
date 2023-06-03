@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Ali's Portfolio</title>
+</head>
+<body>
+    <nav id="nav-wrapper">
+        <h1>ALI</h1>
+        <div>
+            <ul id="nav-el">
+                <li>
+                    <a href="#home-page" id="home" onclick="homeClick()">HOME</a></li>
+                <li>
+                    <a href="#about-page" id="about" onclick="aboutClick()">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#project-page" id="project" onclick="projectsClick()">PROJECTS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home-page">
+        <div class="home-container home-box">
+            <div class="col-l-5 col-md-12 profile-image">
+                <img src="Ali.jpg" alt="">
+            </div>
+            <div class="col-l-7 col-md-12 decription-profile">
+                <h1>Hello, I'm <span id="name">ALI.</span></h1>
+                <p> I am student and studying at Cavite State University - Imus Campus.
+                    I am currently taking my Bachelor Degree in Computer Science.
+                    I love programming languages like Java and Python because it has power and magic to program everything that we want to happen.</p>
+                <button id="download" class="download-btn" >DOWNLOAD CV</button>
+                <p id="para"></p>
+                <div class="icon-el">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-page">
+        <div class="about-container about-box">
+            <div class="col-l-7 col-md-12 about-me">
+                <h2>About <span class="highlighted">Me.</span></h2>
+                <p>My full name is Mohamad Ali Calanda and I lived in Bacoor City, Cavite.  I am very interested about science and technology
+                    that's why I choose this field. Programming is quite challenging thing but fun to do like debugging code to solve specific
+                    problem or creating a program. I'm also machine learning ethusiast, I'm interested on how a model learned from a dataset to 
+                    predict accurate or possible outcomes.
+                </p>
+            </div>
+            <div class="col-l-5 col-md-12 my-skills">
+                <h2>My <span class="highlighted">Skills.</span></h2>
+                <h3>Java</h3>
+                <div class="percent-container">
+                    <div id="java-percent"></div>
+                </div>
+                <h3>Python</h3>
+                <div class="percent-container">
+                    <div id="python-percent"></div>
+                </div>
+                <h3>Javascript</h3>
+                <div class="percent-container">
+                    <div id="javascript-percent"></div>
+                </div>
+                <h3>SQL</h3>
+                <div class="percent-container">
+                    <div id="sql-percent"></div>
+                </div>
+                <h3>Web / Software Development</h3>
+                <div class="percent-container">
+                    <div id="webdev-percent"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project-page">
+        <div class="project-container project-box">
+            <div class="col-l-4 col-md-12">
+                <div class="cards">
+                    <div class="cards-img-frame">
+                        <img src="payrollsystem.JPG" alt="">
+                    </div>
+                    <div class="cards-desc">
+                        <p>
+                            A standalone payroll software with embedded database for JE Prime Construction Incorporation.
+                            Java and Structured Query Language were used to develop this software.
+                        </p>
+                    </div>
+                </div>    
+            </div>
+            <div class="col-l-4 col-md-12">
+                <div class="cards">
+                    <div class="cards-img-frame">
+                        <h3>Put image here</h3>
+                    </div>
+                    <div class="cards-desc">
+                        <p>A system that will help guidance counselling department to counsel student through online.</p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-l-4 col-md-12">
+                <div class="cards">
+                    <div class="cards-img-frame">
+                        <h3>Put image here</h3>
+                    </div>
+                    <div class="cards-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quibusdam hic nulla iure, libero saepe!</p>
+                    </div>
+                </div>  
+            </div>
+        </div>    
+    </section>
+    
+</body>
+</html>
