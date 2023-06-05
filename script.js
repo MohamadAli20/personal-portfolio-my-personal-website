@@ -1,4 +1,4 @@
-alert("Some of features are not yet functional.")
+alert("Some of the features are not yet functional.")
 
 var downloadBtn = document.getElementById("download");
 
