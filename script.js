@@ -1,6 +1,6 @@
-// alert("This webpage is purely designed using CSS only.")
+alert("Some of features are not yet functional.")
 
-var downloadBtn = document.getElementById("download");;
+var downloadBtn = document.getElementById("download");
 
 downloadBtn.addEventListener("click", function(){
     alert("This should link to another page requesting for a copy of resume.");
@@ -22,3 +22,8 @@ function projectsClick(){
     document.getElementById("project").style.color = "#f7f8fa" // white
 }
 
+// function barClick(){
+//     document.getElementById("nav-el").style.visibility = "visible"
+//     document.getElementById("nav-el").style.transitionDuration = "1s"
+//     document.getElementById("nav-el").style.marginTop = "275px"
+// }

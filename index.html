@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8366fe7baf.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
     <title>Ali's Portfolio</title>
 </head>
 <body>
     <nav id="nav-wrapper">
         <h1>ALI</h1>
-        <div>
-            <ul id="nav-el">
-                <li>
-                    <a href="#home-page" id="home" onclick="homeClick()">HOME</a></li>
-                <li>
-                    <a href="#about-page" id="about" onclick="aboutClick()">ABOUT</a>
-                </li>
-                <li>
-                    <a href="#project-page" id="project" onclick="projectsClick()">PROJECTS</a>
-                </li>
-            </ul>
-        </div>
+        <ul id="nav-el">
+            <li class="nav-option">
+                <a href="#home-page" id="home" onclick="homeClick()">HOME</a></li>
+            <li class="nav-option">
+                <a href="#about-page" id="about" onclick="aboutClick()">ABOUT</a>
+            </li>
+            <li class="nav-option">
+                <a href="#project-page" id="project" onclick="projectsClick()">PROJECTS</a>
+            </li>
+        </ul>
+        <i id="bar-el" class="fa-solid fa-bars" onclick="barClick()"></i>
     </nav>
     <section id="home-page">
         <div class="home-container home-box">
@@ -35,7 +35,6 @@
                     I am currently taking my Bachelor Degree in Computer Science.
                     I love programming languages like Java and Python because it has power and magic to program everything that we want to happen.</p>
                 <button id="download" class="download-btn" >DOWNLOAD CV</button>
-                <p id="para"></p>
                 <div class="icon-el">
                     <i class="fa-brands fa-linkedin-in"></i>
                     <i class="fa-brands fa-twitter"></i>
