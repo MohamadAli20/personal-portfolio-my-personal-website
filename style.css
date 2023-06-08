@@ -53,14 +53,17 @@ body{
         width: 100vw;
     }
     #nav-el{
-        /* display: block; */
-        position: fixed;
-        top: 30px;
-        right: -13%;
-        /* z-index: -1; */
-        /* background-color: rgb(33, 36, 41, 0.5); */
-        background-color: red;
-        display: none;
+        display: block;
+        position: absolute;
+        top: 60px;
+        right: -10%;
+        background-color: rgb(33, 36, 41, 0.5);
+        padding-right: 30px;
+        border-radius: 10px;
+        z-index: 2;
+        overflow: hidden;
+        transition: 0.5s;
+        max-height: 0px ;
     }
     #bar-el{
         position: absolute;
@@ -68,8 +71,7 @@ body{
         top: 30%;
         right: 13%;
         color: white;
-        /* z-index: -1; */
-    }
+        }
     .nav-option{
         padding: 20px 0;
     }
@@ -79,10 +81,11 @@ body{
     }
     /* home page */
     .profile-image{
-        /* width: 500px; */
         margin-bottom: -100px;
     }
-    
+    .project-box{
+        flex-direction: column;
+    }
 }
 @media only screen and (min-width: 701px) {
     .col-l-1 { width: 8.33333333% }
@@ -101,7 +104,6 @@ body{
         display: none;
     }
 }
-
 /* designing navigation*/
 #nav-wrapper{
     width: 100vw;
@@ -251,10 +253,11 @@ ul li a:hover{
 }
 .percent-container{
     width: auto;
-    height: 10px;
+    /* height: 10px; */
     border: 1px solid gray;
     border-radius: 20px;
     box-shadow: 0 5px 10px 0 rgb(7, 7, 7, 0.7);
+    overflow: hidden;
 }
 #java-percent{
     background-color: orange;
@@ -294,10 +297,10 @@ ul li a:hover{
     padding: 100px 100px;
 }
 .project-box{
-    height: auto;
+    display: flex;
 }
 .cards{
-    height: 400px;
+    height: auto;
     width: auto;
     margin: 10px 20px;
     background-color: rgba(33,36,41, 0.5);
@@ -312,6 +315,7 @@ ul li a:hover{
     text-align: center;
     background-color: whitesmoke;
     color: rgb(0, 0, 0, 0.5);
+    overflow: hidden;
 }
 .cards-img-frame img{
     height: 300px;
