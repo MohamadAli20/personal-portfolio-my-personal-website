@@ -1,6 +1,9 @@
 alert("Some of features are not yet functional.")
 
 function homeClick(){
+    var barEl = document.getElementById("bar-el");
+    barEl.style.transform = "rotate(0deg)";
+    
     document.getElementById("home").style.color = "#f7f8fa" // white
     document.getElementById("about").style.color = "#7c8187" // gray
     document.getElementById("project").style.color = "#7c8187" // gray
@@ -8,6 +11,9 @@ function homeClick(){
     document.getElementById("nav-el").style.maxHeight = "0px"; // close menu after selecting option
 }
 function aboutClick(){
+    var barEl = document.getElementById("bar-el");
+    barEl.style.transform = "rotate(0deg)";
+    
     document.getElementById("home").style.color = "#7c8187" // gray
     document.getElementById("about").style.color = "#f7f8fa" // white
     document.getElementById("project").style.color = "#7c8187" // gray
@@ -15,6 +21,9 @@ function aboutClick(){
     document.getElementById("nav-el").style.maxHeight = "0px";
 }
 function projectsClick(){
+    var barEl = document.getElementById("bar-el");
+    barEl.style.transform = "rotate(0deg)";
+    
     document.getElementById("home").style.color = "#7c8187" // gray
     document.getElementById("about").style.color = "#7c8187" // gray
     document.getElementById("project").style.color = "#f7f8fa" // white
