@@ -1,4 +1,4 @@
-// alert("Some of features are not yet functional.")
+alert("Some of features are not yet functional.")
 
 function homeClick(){
     document.getElementById("home").style.color = "#f7f8fa" // white
