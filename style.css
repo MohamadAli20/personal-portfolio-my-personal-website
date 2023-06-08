@@ -71,7 +71,8 @@ body{
         top: 30%;
         right: 13%;
         color: white;
-        }
+        transition: 0.5s;
+    }
     .nav-option{
         padding: 20px 0;
     }

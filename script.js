@@ -1,10 +1,4 @@
-alert("Some of features are not yet functional.")
-
-var downloadBtn = document.getElementById("download");
-
-downloadBtn.addEventListener("click", function(){
-    alert("This should link to another page requesting for a copy of resume.");
-});
+// alert("Some of features are not yet functional.")
 
 function homeClick(){
     document.getElementById("home").style.color = "#f7f8fa" // white
@@ -29,15 +23,18 @@ function projectsClick(){
 }
 
 function barClick(){
-    var barEl = document.getElementById("nav-el");
+    // rotate bar
+    var barEl = document.getElementById("bar-el");
+    var navEl = document.getElementById("nav-el");
 
-    if(barEl.style.maxHeight == "0px")
+    if(navEl.style.maxHeight == "0px")
     {
-        barEl.style.maxHeight = "200px";
+        barEl.style.transform = "rotate(90deg)";
+        navEl.style.maxHeight = "200px";
     }
     else
     {
-        barEl.style.maxHeight = "0px";
+        barEl.style.transform = "rotate(0deg)";
+        navEl.style.maxHeight = "0px";
     }
-    barEl.style.maxHeight == "0px";
 }
