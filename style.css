@@ -262,31 +262,31 @@ ul li a:hover{
 }
 #java-percent{
     background-color: orange;
-    width: 60%;
+    width: 40%;
     height: 10px;
     border-radius: 20px;
 }
 #python-percent{
     background-color: orange;
-    width: 50%;
+    width: 40%;
     height: 10px;
     border-radius: 20px;
 }
 #javascript-percent{
     background-color: orange;
-    width: 30%;
+    width: 20%;
     height: 10px;
     border-radius: 20px;
 }
 #sql-percent{
     background-color: orange;
-    width: 50%;
+    width: 20%;
     height: 10px;
     border-radius: 20px;
 }
 #webdev-percent{
     background-color: orange;
-    width: 50%;
+    width: 40%;
     height: 10px;
     border-radius: 20px;
 }
